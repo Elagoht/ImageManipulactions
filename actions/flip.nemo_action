@@ -1,0 +1,9 @@
+[Nemo Action]
+Active=true
+Name=Flip
+Comment=Flip the image
+Exec=/usr/share/manipulactions/mirror f %F
+Icon-Name=object-flip-vertical
+Selection=single
+Extensions=png;jpg;jpeg;bmp;gif
+Quote=single

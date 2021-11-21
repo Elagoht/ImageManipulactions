@@ -1,0 +1,9 @@
+[Nemo Action]
+Active=true
+Name=Rotate Counterclockwise
+Comment=Rotate image counterclockwise
+Exec=/usr/share/manipulactions/rotate 90 %F
+Icon-Name=object-rotate-left
+Selection=single
+Extensions=png;jpg;jpeg;bmp;gif
+Quote=single

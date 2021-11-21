@@ -1,0 +1,9 @@
+[Nemo Action]
+Active=true
+Name=Rotate 180 Degree
+Comment=Rotate image 180 Degree
+Exec=/usr/share/manipulactions/rotate 180 %F
+Icon-Name=reverse
+Selection=single
+Extensions=png;jpg;jpeg;bmp;gif
+Quote=single

@@ -1,0 +1,4 @@
+#!/usr/bin/python3
+from PIL import Image
+from sys import argv
+Image.open(argv[2]).transpose(Image.FLIP_LEFT_RIGHT if argv[1]=="m" else Image.FLIP_TOP_BOTTOM).save(argv[2])

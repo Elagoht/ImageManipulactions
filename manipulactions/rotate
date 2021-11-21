@@ -1,0 +1,4 @@
+#!/usr/bin/python3
+from PIL import Image
+from sys import argv
+Image.open(argv[2]).rotate(int(argv[1]),expand=True).save(argv[2])
